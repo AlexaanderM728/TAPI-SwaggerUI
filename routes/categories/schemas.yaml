@@ -1,0 +1,17 @@
+Category:
+  type: object
+  properties:
+    id_category:
+      type: integer
+      example: 1
+    name:
+      type: string
+      example: "Nabiał"
+    main_category:
+      type: string
+      example: "Produkty mleczne"
+    description:
+      type: string
+      example: "Produkty mleczne i nabiałowe."
+
+    

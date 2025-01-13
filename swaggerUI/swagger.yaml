@@ -1,0 +1,18 @@
+openapi: 3.0.0
+info:
+  title: TAPI-SWAGGERUI
+  description: REST API do zarządzania produktami, dostawcami i kategoriami.
+  version: 1.0.0
+servers:
+  - url: http://localhost:8989
+    description: Development Server
+paths:
+  $ref: "./routes/products/products.yaml"
+  $ref: "./routes/suppliers/suppliers.yaml"
+  $ref: "./routes/categories/categories.yaml"
+components:
+  schemas:
+    $ref: "./routes/products/schemas.yaml"
+
+
+ 

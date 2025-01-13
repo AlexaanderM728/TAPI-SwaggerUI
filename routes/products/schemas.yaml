@@ -1,0 +1,30 @@
+Product:
+  type: object
+  properties:
+    id:
+      type: integer
+      example: 1
+    name:
+      type: string
+      example: "Mleko"
+    category_id:
+      type: integer
+      example: 2
+    id_supplier:
+      type: integer
+      example: 3
+    nutritional_values:
+      type: object
+      properties:
+        carbohydrates:
+          type: number
+          format: float
+          example: 14.0
+        proteins:
+          type: number
+          format: float
+          example: 0.3
+        fats:
+          type: number
+          format: float
+          example: 0.2

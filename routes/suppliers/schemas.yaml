@@ -1,0 +1,22 @@
+Suppliers:
+  type: object
+  properties:
+    id_supplier:
+      type: integer
+      example: 1
+    name:
+      type: string
+      example: "James Cook corp"
+    contact_info:
+      type: object
+      properties:
+        address:
+          type: string
+          example: "Keller Lock Apt. 276, Kennethtown, MD 26090"
+        phone:
+          type: integer
+          example: 636243817
+    rating:
+      type: number
+      format: float
+      example: 2.8
