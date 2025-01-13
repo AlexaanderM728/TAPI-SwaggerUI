@@ -1,4 +1,7 @@
 # TAPI
+## Swagger UI
+http://localhost:8989/api-docs/
+
 ## Products
 
 ### Get Product List
